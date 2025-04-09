@@ -1,8 +1,8 @@
 #! /usr/bin/env python
 '''
-	Libary essential to automate a website transactions
+	Utility to automate a ebay transactions with selenium
 
-	AUTHOR	: Vignesh Natarajan (www.vikiworks.io)
+	AUTHOR	: V Natarajan (www.viki.design)
 
 '''
 
@@ -145,7 +145,7 @@ else:
         web_site.click(res_list[0])
 
 web_site.clear(res_list[0])
-web_site.send_text(res_list[0], "ganesha")
+web_site.send_text(res_list[0], "tastatur")
 
 res_list = web_site.find_buttons("Finden")
 
